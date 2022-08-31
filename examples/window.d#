@@ -1,0 +1,4 @@
+gui::init::INIT;
+gui::init::title D# WINDOW;
+gui::init::geometry 800x600;
+gui::mloop;
