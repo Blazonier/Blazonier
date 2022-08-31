@@ -1,0 +1,17 @@
+in::getasid "> ", 0;
+
+if:: @inputID0==about, 0;
+out::print SHELL%n% v0.1;
+end::if 0;
+
+if:: @inputID0==close, 1;
+exit;
+end::if 1;
+
+if:: @inputID0==help, 2;
+out::print about%n%;
+out::print close%n%;
+out::print help%n%;
+end::if 2;
+
+loop::all;

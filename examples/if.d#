@@ -1,0 +1,11 @@
+var::str option=1;
+
+if:: %str%:option==1, 0;
+out::print option is 1%n%;
+end::if 0;
+
+if:: %str%:option!=1, 1;
+out::print option is not 1%n%;
+end::if 1;
+
+exit;
