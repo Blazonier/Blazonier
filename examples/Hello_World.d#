@@ -1,2 +1,2 @@
-out::print Hello World!%n%;
+out::print Hello World!@nl;
 exit;

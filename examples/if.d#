@@ -1,11 +1,11 @@
-var::str option=1;
+var option=1;
 
-if:: %str%:option==1, 0;
-out::print option is 1%n%;
+if %str%:option==1, 0;
+out::print option is 1@nl;
 end::if 0;
 
-if:: %str%:option!=1, 1;
-out::print option is not 1%n%;
+if %str%:option!=1, 1;
+out::print option is not 1@nl;
 end::if 1;
 
 exit;

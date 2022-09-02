@@ -1,0 +1,3 @@
+in::getasid "Calculator > ", 0;
+math::print @inputID0;
+loop::all;

@@ -1,0 +1,5 @@
+func::make main, 0;
+out::print Hello World!@nl;
+end::func 0;
+
+func::call main;

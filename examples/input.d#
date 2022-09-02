@@ -1,4 +1,4 @@
 in::getasid "type text > ", 0;
 out::print text typed: ;
-out::print @inputID 0%n%;
+out::print @inputID 0@nl;
 exit;
